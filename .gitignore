@@ -1,0 +1,18 @@
+# Ortam değişkenleri ve sırlar (ASLA commit edilmez)
+.env
+.env.*
+!.env.example
+
+# Python ve sanal ortam
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Üretilen geçici raporlar ve indeksler
+*.pkl
+rapor_*.json
+izler/*.jsonl
+!izler/.gitkeep
